@@ -1,0 +1,15 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    /* faça um programa que leia um numero e que imprima os numeros impares de 1 ate o numero informado */
+    int n;
+    System.out.println("Informe um numero:");
+    n = entrada.nextInt();
+
+    for (int i = 1; i <= n;i ++)
+      
+  
+    System.out.println("Os numeros impares de 1 ate " + n  );
+}
+}
